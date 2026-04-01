@@ -1,3 +1,10 @@
+"""
+BikeShare Data Analysis Program
+
+This script allows users to explore bikeshare data from different cities.
+Users can filter data by city, month, and day, and the program calculates
+various statistics such as most common travel times and trip durations.
+"""
 import time
 import pandas as pd
 import numpy as np
@@ -88,6 +95,7 @@ def time_stats(df):
 
     # TO DO: display the most common month
     df['month'] = df['Start Time'].dt.month
+    # Find the most common month (mode)
     common_month = df['month'].mode()[0]
     print("Most Common Month: ",common_month)
 
