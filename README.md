@@ -7,7 +7,8 @@ March 2026
 BikeShare Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+This project analyzes bikeshare data from three major US cities: Chicago, New York City, and Washington. 
+The program allows users to explore data by filtering it based on city, month, and day of the week.
 
 ### Files used
 Include the files used
