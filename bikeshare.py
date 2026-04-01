@@ -205,6 +205,7 @@ def display_data(df):
             print("Invalid input. Please enter yes or no.")
         
 def main():
+    """Main function to run the bikeshare data analysis."""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
